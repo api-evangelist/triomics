@@ -1,22 +1,76 @@
 aid: triomics
 name: Triomics
-description: Triomics is a company surfaced as a portfolio company of general-catalyst and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Triomics is an AI healthcare company focused on oncology workflows, using
+  AI agents to transform unstructured electronic health records into structured, actionable
+  datasets for cancer centers and life sciences organizations. Its products include PRISM
+  (AI-powered clinical trial matching), Symphony (visit preparation), Harmony (registry
+  data curation and abstraction), and OncoLLM, a language model that reads entire patient
+  charts to answer oncology-specific questions. The platform ingests HL7, FHIR, CCDA,
+  PDF, and image formats, integrates with Epic, OncoEMR, iKnowMed, and Cerner, and is
+  approved on the Epic App Marketplace. Triomics is deployed at cancer centers including
+  Memorial Sloan Kettering and Mount Sinai, and raised $22 million backed by Battery
+  Ventures, Lightspeed, Nexus, Y Combinator, and Oncology Ventures. Triomics does not
+  currently publish a public developer portal, API documentation, or client SDKs.
 url: https://raw.githubusercontent.com/api-evangelist/triomics/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/69f0f90637c1de3207beb703/69f693d1a54c0760fccd467c_meta-image.jpg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - general-catalyst
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: portfolio-lead-no-public-api
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Oncology
+- Healthcare
+- Artificial Intelligence
+- Clinical Trials
+- Electronic Health Records
+- Life Sciences
+- Cancer
 apis: []
+common:
+- type: DomainSecurity
+  url: security/triomics-domain-security.yml
+- type: LLMsTxt
+  url: llms/triomics-llms.txt
+- type: Website
+  url: https://triomics.com/
+- type: Blog
+  url: https://triomics.com/resources
+- type: PrivacyPolicy
+  url: https://triomics.com/privacy
+- type: TermsOfService
+  url: https://triomics.com/terms-services
+- type: Contact
+  url: https://triomics.com/contact-us
+- type: Careers
+  url: https://triomics.com/careers
+- type: LinkedIn
+  url: https://www.linkedin.com/company/triomics/
+- type: Twitter
+  url: https://x.com/Triomicsinc
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1

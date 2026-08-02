@@ -1,0 +1,28 @@
+generated: '2026-07-21'
+method: searched
+host: https://triomics.com
+notes: www.triomics.com 301-redirects to triomics.com (canonical host). No developer,
+  docs, api, status, trust, or security subdomains resolve. No well-known discovery
+  documents are published; every probe below returned 404.
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+- path: /llms.txt
+  status: 404
+subdomains_probed:
+- {host: docs.triomics.com, resolves: false}
+- {host: developer.triomics.com, resolves: false}
+- {host: developers.triomics.com, resolves: false}
+- {host: api.triomics.com, resolves: false}
+- {host: status.triomics.com, resolves: false}
+- {host: trust.triomics.com, resolves: false}
+- {host: security.triomics.com, resolves: false}
+- {host: app.triomics.com, resolves: false}
