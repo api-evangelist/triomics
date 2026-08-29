@@ -12,6 +12,17 @@ description: Triomics is an AI healthcare company focused on oncology workflows,
   Ventures, Lightspeed, Nexus, Y Combinator, and Oncology Ventures. Triomics does not
   currently publish a public developer portal, API documentation, or client SDKs.
 url: https://raw.githubusercontent.com/api-evangelist/triomics/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
