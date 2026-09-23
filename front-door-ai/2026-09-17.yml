@@ -1,0 +1,29 @@
+# Front Door AI Index — triomics — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: triomics
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: triomics.com
+  final_host: triomics.com
+  ownership: own
+  owner: triomics
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 12
+  host_score: 12
+  density: 10.03
+  words: 1197
+  tiers:
+    agentic: 1
+    core: 11
+    model: 0
+  ambiguous: 5
+  top_terms:
+    AI: 10
+    agent: 3
+    intelligence: 2
+    AI agent: 1
+    large language model: 1
